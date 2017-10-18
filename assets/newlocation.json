@@ -1,0 +1,38 @@
+[
+	{
+		"lat" : "-8.497025",
+		"lng" : "117.420246",
+		"jenis" : "jembatan",
+		"nama" : "Kerangka Baja",
+		"image" : "krangkabaja.jpg"
+	},
+	{
+		"lat" : "-8.488960",
+		"lng" : "117.416642",
+		"jenis" : "jembatan",
+		"nama" : "Lempeh",
+		"image" : "lempeh.jpg"
+	},
+	{
+		"lat" : "-8.476924",
+		"lng" : "117.410605",
+		"jenis" : "jembatan",
+		"nama" : "Brang Biji",
+		"image" : "brangbiji.jpg"
+	},
+	{
+		"lat" : "-8.503755",
+		"lng" : "117.420846",
+		"jenis" : "jembatan",
+		"nama" : "Kerato",
+		"image" : "kerato.jpg"
+	},
+	{
+		"lat" : "-8.500542",
+		"lng" : "117.426901",
+		"jenis" : "jembatan",
+		"nama" : "ndak tau",
+		"image" : "kerato.jpg"
+	}
+
+]
