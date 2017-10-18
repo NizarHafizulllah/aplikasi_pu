@@ -3,7 +3,7 @@
 class jenis_model extends CI_Model {
 
 
-	function jenis_model(){
+	function __construct(){
 		parent::__construct();
 	}
 

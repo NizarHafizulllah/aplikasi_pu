@@ -2,7 +2,7 @@
 class user_controller extends CI_Controller {
 
  
-	function user_controller() {
+	function __construct() {
 		parent::__construct();  
 
 		 $datalogin = $this->session->userdata("user_login");

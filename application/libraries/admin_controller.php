@@ -2,7 +2,7 @@
 class admin_controller extends CI_Controller {
 
  
-	function admin_controller() {
+	function __construct() {
 		parent::__construct(); 
 
 		$datalogin = $this->session->userdata("admin_login");

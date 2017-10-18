@@ -4,7 +4,7 @@ jQuery(document).ready(function() {
     /*
         Fullscreen background
     */
-    $.backstretch(window.location.origin+"/pu/assets/images/3421.jpg");
+    $.backstretch(window.location.origin+"/aplikasi_pu/assets/images/3421.jpg");
     
     /*
         Login form validation

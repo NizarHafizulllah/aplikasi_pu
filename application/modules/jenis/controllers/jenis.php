@@ -1,7 +1,7 @@
 <?php 
 class jenis extends admin_controller{
 	var $controller;
-	function jenis(){
+	function __construct(){
 		parent::__construct();
 
 		$this->controller = get_class($this);

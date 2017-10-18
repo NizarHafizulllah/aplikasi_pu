@@ -1,7 +1,7 @@
 <?php 
 class properti extends admin_controller{
 	var $controller;
-	function properti(){
+	function __construct(){
 		parent::__construct();
 
 		$this->controller = get_class($this);
@@ -94,8 +94,8 @@ if($this->form_validation->run() == TRUE ) {
 
     $post['image'] = $filename_arr[0];
 
-    // show_array($post);
-    // exit();
+    show_array($post);
+    exit();
         
         $res = $this->db->insert('properti', $post); 
         if($res){

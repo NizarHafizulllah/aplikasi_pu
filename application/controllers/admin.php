@@ -4,7 +4,7 @@
 class admin extends admin_controller {
 	
 	var $controller;
-	public function admin(){
+	public function __construct(){
 		parent::__construct();
 		$this->controller = get_class($this);
 	}

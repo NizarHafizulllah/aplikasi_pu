@@ -4,7 +4,7 @@
 class user extends user_controller {
 	
 	var $controller;
-	public function user(){
+	public function __construct(){
 		parent::__construct();
 		$this->controller = get_class($this);
 	}

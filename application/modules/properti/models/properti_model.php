@@ -3,7 +3,7 @@
 class properti_model extends CI_Model {
 
 
-	function properti_model(){
+	function __construct(){
 		parent::__construct();
 	}
 

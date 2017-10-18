@@ -4,7 +4,7 @@
     <script src="<?php echo base_url("assets") ?>/js/bootstrap-datepicker.js"></script>
  <script src="<?php echo base_url("assets"); ?>/vendors/fileinput/js/fileinput.min.js"></script>
  <link href="<?php echo base_url("assets"); ?>/vendors/fileinput/css/fileinput.min.css" rel="stylesheet">
-
+<script src="<?php echo base_url("assets"); ?>/ckeditor/ckeditor.js"></script>
 
 
  <form id="form_data" class="form-horizontal" method="post" action="<?php echo site_url("$this->controller/$action"); ?>" role="form" enctype="multipart/form-data"> 
@@ -47,6 +47,13 @@
             </div>
         </div> 
 
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Keterangan</label>
+            <div class="col-sm-9">
+                <textarea name="keterangan" id="keterangan" class="ckeditor"></textarea>
+            </div>
+        </div> 
+
     	
 
     	
@@ -77,8 +84,16 @@
       </div> 
 
 	</div><!-- /.box-body -->
+     <script>
+                // Replace the <textarea id="editor1"> with a CKEditor
+                // instance, using default configuration.
+                CKEDITOR.replace( 'keterangan' );
+            </script>
 </div>
  </form>
+
+
+
       <?php 
 $this->load->view($this->controller."_form_view_js");
 ?>
